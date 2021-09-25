@@ -4,6 +4,7 @@
 - Displays the count tasbih
 - Button to increase it
 - Button to reset it
+
 ![CleanShot 2021-09-25 at 11 49 59](https://user-images.githubusercontent.com/34512743/134765673-75d7eb2c-d018-493f-a449-26aa9d2bdad8.png)
 
 
