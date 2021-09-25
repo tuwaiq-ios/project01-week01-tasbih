@@ -14,3 +14,6 @@
 
 ## Why is this project meaningful to my career?
 The project will make you practice for our next apps that we are gonna build later.
+
+## Due date
+Thursday 30 September
