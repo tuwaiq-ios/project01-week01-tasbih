@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F61B65C2704336100648ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61B65B2704336100648ADA /* AppDelegate.swift */; };
+		1F61B65E2704336100648ADA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61B65D2704336100648ADA /* SceneDelegate.swift */; };
+		1F61B6602704336100648ADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61B65F2704336100648ADA /* ViewController.swift */; };
+		1F61B6632704336100648ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F61B6612704336100648ADA /* Main.storyboard */; };
+		1F61B6652704336400648ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F61B6642704336400648ADA /* Assets.xcassets */; };
+		1F61B6682704336400648ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F61B6662704336400648ADA /* LaunchScreen.storyboard */; };
+		1F61B6712704383700648ADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61B65F2704336100648ADA /* ViewController.swift */; };
+		1F61B6722704383700648ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61B65B2704336100648ADA /* AppDelegate.swift */; };
+		1F61B6732704383700648ADA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61B65D2704336100648ADA /* SceneDelegate.swift */; };
+		1F61B6762704383700648ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F61B6662704336400648ADA /* LaunchScreen.storyboard */; };
+		1F61B6772704383700648ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F61B6642704336400648ADA /* Assets.xcassets */; };
+		1F61B6782704383700648ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F61B6612704336100648ADA /* Main.storyboard */; };
+		1F61B6802704383E00648ADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61B65F2704336100648ADA /* ViewController.swift */; };
+		1F61B6812704383E00648ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61B65B2704336100648ADA /* AppDelegate.swift */; };
+		1F61B6822704383E00648ADA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61B65D2704336100648ADA /* SceneDelegate.swift */; };
+		1F61B6852704383E00648ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F61B6662704336400648ADA /* LaunchScreen.storyboard */; };
+		1F61B6862704383E00648ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F61B6642704336400648ADA /* Assets.xcassets */; };
+		1F61B6872704383E00648ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F61B6612704336100648ADA /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F61B6582704336100648ADA /* Tasbih Sara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tasbih Sara.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F61B65B2704336100648ADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F61B65D2704336100648ADA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F61B65F2704336100648ADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F61B6622704336100648ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F61B6642704336400648ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F61B6672704336400648ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F61B6692704336400648ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F61B67C2704383700648ADA /* Tasbih Sara copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tasbih Sara copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F61B67D2704383700648ADA /* Tasbih Sara copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Tasbih Sara copy-Info.plist"; path = "/Users/saraalzhrani/Desktop/Tasbih Sara/Tasbih Sara copy-Info.plist"; sourceTree = "<absolute>"; };
+		1F61B68B2704383E00648ADA /* Tasbih Sara copy copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tasbih Sara copy copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F61B68C2704383E00648ADA /* Tasbih Sara copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Tasbih Sara copy copy-Info.plist"; path = "/Users/saraalzhrani/Desktop/Tasbih Sara/Tasbih Sara copy copy-Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F61B6552704336100648ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F61B6742704383700648ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F61B6832704383E00648ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F61B64F2704336100648ADA = {
+			isa = PBXGroup;
+			children = (
+				1F61B65A2704336100648ADA /* Tasbih Sara */,
+				1F61B6592704336100648ADA /* Products */,
+				1F61B67D2704383700648ADA /* Tasbih Sara copy-Info.plist */,
+				1F61B68C2704383E00648ADA /* Tasbih Sara copy copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		1F61B6592704336100648ADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F61B6582704336100648ADA /* Tasbih Sara.app */,
+				1F61B67C2704383700648ADA /* Tasbih Sara copy.app */,
+				1F61B68B2704383E00648ADA /* Tasbih Sara copy copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F61B65A2704336100648ADA /* Tasbih Sara */ = {
+			isa = PBXGroup;
+			children = (
+				1F61B65B2704336100648ADA /* AppDelegate.swift */,
+				1F61B65D2704336100648ADA /* SceneDelegate.swift */,
+				1F61B65F2704336100648ADA /* ViewController.swift */,
+				1F61B6612704336100648ADA /* Main.storyboard */,
+				1F61B6642704336400648ADA /* Assets.xcassets */,
+				1F61B6662704336400648ADA /* LaunchScreen.storyboard */,
+				1F61B6692704336400648ADA /* Info.plist */,
+			);
+			path = "Tasbih Sara";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F61B6572704336100648ADA /* Tasbih Sara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F61B66C2704336400648ADA /* Build configuration list for PBXNativeTarget "Tasbih Sara" */;
+			buildPhases = (
+				1F61B6542704336100648ADA /* Sources */,
+				1F61B6552704336100648ADA /* Frameworks */,
+				1F61B6562704336100648ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tasbih Sara";
+			productName = "Tasbih Sara";
+			productReference = 1F61B6582704336100648ADA /* Tasbih Sara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F61B66F2704383700648ADA /* Tasbih Sara copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F61B6792704383700648ADA /* Build configuration list for PBXNativeTarget "Tasbih Sara copy" */;
+			buildPhases = (
+				1F61B6702704383700648ADA /* Sources */,
+				1F61B6742704383700648ADA /* Frameworks */,
+				1F61B6752704383700648ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tasbih Sara copy";
+			productName = "Tasbih Sara";
+			productReference = 1F61B67C2704383700648ADA /* Tasbih Sara copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F61B67E2704383E00648ADA /* Tasbih Sara copy copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F61B6882704383E00648ADA /* Build configuration list for PBXNativeTarget "Tasbih Sara copy copy" */;
+			buildPhases = (
+				1F61B67F2704383E00648ADA /* Sources */,
+				1F61B6832704383E00648ADA /* Frameworks */,
+				1F61B6842704383E00648ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tasbih Sara copy copy";
+			productName = "Tasbih Sara";
+			productReference = 1F61B68B2704383E00648ADA /* Tasbih Sara copy copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F61B6502704336100648ADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					1F61B6572704336100648ADA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 1F61B6532704336100648ADA /* Build configuration list for PBXProject "Tasbih Sara" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F61B64F2704336100648ADA;
+			productRefGroup = 1F61B6592704336100648ADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F61B6572704336100648ADA /* Tasbih Sara */,
+				1F61B66F2704383700648ADA /* Tasbih Sara copy */,
+				1F61B67E2704383E00648ADA /* Tasbih Sara copy copy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F61B6562704336100648ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F61B6682704336400648ADA /* LaunchScreen.storyboard in Resources */,
+				1F61B6652704336400648ADA /* Assets.xcassets in Resources */,
+				1F61B6632704336100648ADA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F61B6752704383700648ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F61B6762704383700648ADA /* LaunchScreen.storyboard in Resources */,
+				1F61B6772704383700648ADA /* Assets.xcassets in Resources */,
+				1F61B6782704383700648ADA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F61B6842704383E00648ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F61B6852704383E00648ADA /* LaunchScreen.storyboard in Resources */,
+				1F61B6862704383E00648ADA /* Assets.xcassets in Resources */,
+				1F61B6872704383E00648ADA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F61B6542704336100648ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F61B6602704336100648ADA /* ViewController.swift in Sources */,
+				1F61B65C2704336100648ADA /* AppDelegate.swift in Sources */,
+				1F61B65E2704336100648ADA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F61B6702704383700648ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F61B6712704383700648ADA /* ViewController.swift in Sources */,
+				1F61B6722704383700648ADA /* AppDelegate.swift in Sources */,
+				1F61B6732704383700648ADA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F61B67F2704383E00648ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F61B6802704383E00648ADA /* ViewController.swift in Sources */,
+				1F61B6812704383E00648ADA /* AppDelegate.swift in Sources */,
+				1F61B6822704383E00648ADA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F61B6612704336100648ADA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F61B6622704336100648ADA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F61B6662704336400648ADA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F61B6672704336400648ADA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F61B66A2704336400648ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F61B66B2704336400648ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F61B66D2704336400648ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVJKC8N3PQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tasbih Sara/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sara-alzhrani.Tasbih-Sara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F61B66E2704336400648ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVJKC8N3PQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tasbih Sara/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sara-alzhrani.Tasbih-Sara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F61B67A2704383700648ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVJKC8N3PQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tasbih Sara copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "copy 1";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sara-alzhrani.Tasbih-Sara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F61B67B2704383700648ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVJKC8N3PQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tasbih Sara copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "copy 1";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sara-alzhrani.Tasbih-Sara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F61B6892704383E00648ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVJKC8N3PQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tasbih Sara copy copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "copy 2";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sara-alzhrani.Tasbih-Sara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F61B68A2704383E00648ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVJKC8N3PQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tasbih Sara copy copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "copy 2";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sara-alzhrani.Tasbih-Sara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F61B6532704336100648ADA /* Build configuration list for PBXProject "Tasbih Sara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F61B66A2704336400648ADA /* Debug */,
+				1F61B66B2704336400648ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F61B66C2704336400648ADA /* Build configuration list for PBXNativeTarget "Tasbih Sara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F61B66D2704336400648ADA /* Debug */,
+				1F61B66E2704336400648ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F61B6792704383700648ADA /* Build configuration list for PBXNativeTarget "Tasbih Sara copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F61B67A2704383700648ADA /* Debug */,
+				1F61B67B2704383700648ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F61B6882704383E00648ADA /* Build configuration list for PBXNativeTarget "Tasbih Sara copy copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F61B6892704383E00648ADA /* Debug */,
+				1F61B68A2704383E00648ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F61B6502704336100648ADA /* Project object */;
+}
