@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tasbih" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phonto" translatesAutoresizingMaskIntoConstraints="NO" id="eco-pA-dyB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="2xg-hm-brr">
+                                <rect key="frame" x="129" y="581.5" width="156" height="54.5"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="35"/>
+                                <color key="tintColor" red="0.88877660039999995" green="0.64179903270000005" blue="0.68892812729999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="count">
+                                    <color key="titleColor" red="0.24488055710000001" green="0.21481695770000001" blue="0.38704451919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" title="Count" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background"/>
+                                    <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="35"/>
+                                    <color key="baseForegroundColor" red="0.24488055710000001" green="0.21481695770000001" blue="0.38704451919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="countButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bA3-zz-Enm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyb-I9-f9b">
+                                <rect key="frame" x="30" y="469.5" width="81.5" height="51"/>
+                                <color key="tintColor" red="0.19633102420000001" green="0.17320618030000001" blue="0.31977137919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Reset" cornerStyle="capsule" buttonSize="large">
+                                    <backgroundConfiguration key="background"/>
+                                    <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.94810599090000003" green="0.76352423430000005" blue="0.77517032620000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="restButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rKH-6S-ZsR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvw-7C-BaR">
+                                <rect key="frame" x="20" y="250" width="374" height="71"/>
+                                <color key="tintColor" red="0.19633102420000001" green="0.17320618030000001" blue="0.31977137919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="YJM-nO-gAs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="60"/>
+                                <color key="textColor" red="0.19633102420000001" green="0.17320618030000001" blue="0.31977137919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tasbih Counter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dU0-XQ-z3e">
+                                <rect key="frame" x="90" y="112" width="234" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="Nc8-9W-Hsp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="31"/>
+                                <color key="textColor" red="0.99930149319999995" green="0.88187521700000004" blue="0.82068198920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2xg-hm-brr" secondAttribute="trailing" constant="129" id="5vC-MF-g4Z"/>
+                            <constraint firstItem="dU0-XQ-z3e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="6A2-Vl-cXL"/>
+                            <constraint firstAttribute="bottom" secondItem="eco-pA-dyB" secondAttribute="bottom" id="7T0-ek-nRL"/>
+                            <constraint firstItem="dU0-XQ-z3e" firstAttribute="centerX" secondItem="rvw-7C-BaR" secondAttribute="centerX" id="BdA-40-HFD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rvw-7C-BaR" secondAttribute="trailing" constant="20" id="Dvb-iG-EoH"/>
+                            <constraint firstItem="dU0-XQ-z3e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="68" id="EiM-fi-IQo"/>
+                            <constraint firstItem="2xg-hm-brr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129" id="J0S-4e-Wn9"/>
+                            <constraint firstItem="eco-pA-dyB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="KFc-yA-f4e"/>
+                            <constraint firstItem="2xg-hm-brr" firstAttribute="top" secondItem="jyb-I9-f9b" secondAttribute="bottom" constant="61" id="M5T-mQ-8KO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2xg-hm-brr" secondAttribute="bottom" constant="226" id="OOu-eW-WSc"/>
+                            <constraint firstItem="2xg-hm-brr" firstAttribute="top" secondItem="rvw-7C-BaR" secondAttribute="bottom" constant="260.5" id="RZ5-Ij-xsn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dU0-XQ-z3e" secondAttribute="trailing" constant="90" id="ZOP-v0-D8W"/>
+                            <constraint firstItem="jyb-I9-f9b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="dbT-nV-k9E"/>
+                            <constraint firstItem="rvw-7C-BaR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hBS-t3-Um3"/>
+                            <constraint firstItem="eco-pA-dyB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="iRX-qE-OnD"/>
+                            <constraint firstItem="eco-pA-dyB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xUh-Cs-6UG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="countLabel" destination="rvw-7C-BaR" id="yQ4-Vl-MeR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="phonto" width="750" height="1500"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
