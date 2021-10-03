@@ -7,68 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE7CAC672705DB6600CDAD92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7CAC662705DB6600CDAD92 /* SceneDelegate.swift */; };
-		EE7CAC692705DB6600CDAD92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7CAC682705DB6600CDAD92 /* ViewController.swift */; };
-		EE7CAC6C2705DB6600CDAD92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7CAC6A2705DB6600CDAD92 /* Main.storyboard */; };
-		EE7CAC6E2705DB6700CDAD92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7CAC6D2705DB6700CDAD92 /* Assets.xcassets */; };
-		EE7CAC712705DB6700CDAD92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7CAC6F2705DB6700CDAD92 /* LaunchScreen.storyboard */; };
-		EE7CAC7C2705DB6700CDAD92 /* sally55Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7CAC7B2705DB6700CDAD92 /* sally55Tests.swift */; };
-		EE7CAC862705DB6700CDAD92 /* sally55UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7CAC852705DB6700CDAD92 /* sally55UITests.swift */; };
-		EE7CAC882705DB6700CDAD92 /* sally55UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7CAC872705DB6700CDAD92 /* sally55UITestsLaunchTests.swift */; };
-		EE7CAC942705F87900CDAD92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7CAC642705DB6600CDAD92 /* AppDelegate.swift */; };
-		EE7CAC952705F87B00CDAD92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7CAC642705DB6600CDAD92 /* AppDelegate.swift */; };
-		EE7CAC962705F87C00CDAD92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7CAC642705DB6600CDAD92 /* AppDelegate.swift */; };
+		EE7B3B102709CC43002AE67A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7B3B0F2709CC43002AE67A /* AppDelegate.swift */; };
+		EE7B3B122709CC43002AE67A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7B3B112709CC43002AE67A /* SceneDelegate.swift */; };
+		EE7B3B142709CC43002AE67A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7B3B132709CC43002AE67A /* ViewController.swift */; };
+		EE7B3B172709CC43002AE67A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7B3B152709CC43002AE67A /* Main.storyboard */; };
+		EE7B3B192709CC44002AE67A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7B3B182709CC44002AE67A /* Assets.xcassets */; };
+		EE7B3B1C2709CC44002AE67A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7B3B1A2709CC44002AE67A /* LaunchScreen.storyboard */; };
+		EE7B3B272709CC44002AE67A /* sallynewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7B3B262709CC44002AE67A /* sallynewTests.swift */; };
+		EE7B3B312709CC44002AE67A /* sallynewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7B3B302709CC44002AE67A /* sallynewUITests.swift */; };
+		EE7B3B332709CC44002AE67A /* sallynewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7B3B322709CC44002AE67A /* sallynewUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EE7CAC782705DB6700CDAD92 /* PBXContainerItemProxy */ = {
+		EE7B3B232709CC44002AE67A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EE7CAC592705DB6600CDAD92 /* Project object */;
+			containerPortal = EE7B3B042709CC43002AE67A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EE7CAC602705DB6600CDAD92;
-			remoteInfo = sally55;
+			remoteGlobalIDString = EE7B3B0B2709CC43002AE67A;
+			remoteInfo = sallynew;
 		};
-		EE7CAC822705DB6700CDAD92 /* PBXContainerItemProxy */ = {
+		EE7B3B2D2709CC44002AE67A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EE7CAC592705DB6600CDAD92 /* Project object */;
+			containerPortal = EE7B3B042709CC43002AE67A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EE7CAC602705DB6600CDAD92;
-			remoteInfo = sally55;
+			remoteGlobalIDString = EE7B3B0B2709CC43002AE67A;
+			remoteInfo = sallynew;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EE7CAC612705DB6600CDAD92 /* sally55.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sally55.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE7CAC642705DB6600CDAD92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE7CAC662705DB6600CDAD92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE7CAC682705DB6600CDAD92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EE7CAC6B2705DB6600CDAD92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EE7CAC6D2705DB6700CDAD92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE7CAC702705DB6700CDAD92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EE7CAC722705DB6700CDAD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE7CAC772705DB6700CDAD92 /* sally55Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sally55Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE7CAC7B2705DB6700CDAD92 /* sally55Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sally55Tests.swift; sourceTree = "<group>"; };
-		EE7CAC812705DB6700CDAD92 /* sally55UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sally55UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE7CAC852705DB6700CDAD92 /* sally55UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sally55UITests.swift; sourceTree = "<group>"; };
-		EE7CAC872705DB6700CDAD92 /* sally55UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sally55UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE7B3B0C2709CC43002AE67A /* sallynew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sallynew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7B3B0F2709CC43002AE67A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE7B3B112709CC43002AE67A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE7B3B132709CC43002AE67A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE7B3B162709CC43002AE67A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE7B3B182709CC44002AE67A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE7B3B1B2709CC44002AE67A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE7B3B1D2709CC44002AE67A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7B3B222709CC44002AE67A /* sallynewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sallynewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7B3B262709CC44002AE67A /* sallynewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sallynewTests.swift; sourceTree = "<group>"; };
+		EE7B3B2C2709CC44002AE67A /* sallynewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sallynewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7B3B302709CC44002AE67A /* sallynewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sallynewUITests.swift; sourceTree = "<group>"; };
+		EE7B3B322709CC44002AE67A /* sallynewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sallynewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EE7CAC5E2705DB6600CDAD92 /* Frameworks */ = {
+		EE7B3B092709CC43002AE67A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE7CAC742705DB6700CDAD92 /* Frameworks */ = {
+		EE7B3B1F2709CC44002AE67A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE7CAC7E2705DB6700CDAD92 /* Frameworks */ = {
+		EE7B3B292709CC44002AE67A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,137 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EE7CAC582705DB6600CDAD92 = {
+		EE7B3B032709CC43002AE67A = {
 			isa = PBXGroup;
 			children = (
-				EE7CAC632705DB6600CDAD92 /* sally55 */,
-				EE7CAC7A2705DB6700CDAD92 /* sally55Tests */,
-				EE7CAC842705DB6700CDAD92 /* sally55UITests */,
-				EE7CAC622705DB6600CDAD92 /* Products */,
+				EE7B3B0E2709CC43002AE67A /* sallynew */,
+				EE7B3B252709CC44002AE67A /* sallynewTests */,
+				EE7B3B2F2709CC44002AE67A /* sallynewUITests */,
+				EE7B3B0D2709CC43002AE67A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EE7CAC622705DB6600CDAD92 /* Products */ = {
+		EE7B3B0D2709CC43002AE67A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE7CAC612705DB6600CDAD92 /* sally55.app */,
-				EE7CAC772705DB6700CDAD92 /* sally55Tests.xctest */,
-				EE7CAC812705DB6700CDAD92 /* sally55UITests.xctest */,
+				EE7B3B0C2709CC43002AE67A /* sallynew.app */,
+				EE7B3B222709CC44002AE67A /* sallynewTests.xctest */,
+				EE7B3B2C2709CC44002AE67A /* sallynewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE7CAC632705DB6600CDAD92 /* sally55 */ = {
+		EE7B3B0E2709CC43002AE67A /* sallynew */ = {
 			isa = PBXGroup;
 			children = (
-				EE7CAC642705DB6600CDAD92 /* AppDelegate.swift */,
-				EE7CAC662705DB6600CDAD92 /* SceneDelegate.swift */,
-				EE7CAC682705DB6600CDAD92 /* ViewController.swift */,
-				EE7CAC6A2705DB6600CDAD92 /* Main.storyboard */,
-				EE7CAC6D2705DB6700CDAD92 /* Assets.xcassets */,
-				EE7CAC6F2705DB6700CDAD92 /* LaunchScreen.storyboard */,
-				EE7CAC722705DB6700CDAD92 /* Info.plist */,
+				EE7B3B0F2709CC43002AE67A /* AppDelegate.swift */,
+				EE7B3B112709CC43002AE67A /* SceneDelegate.swift */,
+				EE7B3B132709CC43002AE67A /* ViewController.swift */,
+				EE7B3B152709CC43002AE67A /* Main.storyboard */,
+				EE7B3B182709CC44002AE67A /* Assets.xcassets */,
+				EE7B3B1A2709CC44002AE67A /* LaunchScreen.storyboard */,
+				EE7B3B1D2709CC44002AE67A /* Info.plist */,
 			);
-			path = sally55;
+			path = sallynew;
 			sourceTree = "<group>";
 		};
-		EE7CAC7A2705DB6700CDAD92 /* sally55Tests */ = {
+		EE7B3B252709CC44002AE67A /* sallynewTests */ = {
 			isa = PBXGroup;
 			children = (
-				EE7CAC7B2705DB6700CDAD92 /* sally55Tests.swift */,
+				EE7B3B262709CC44002AE67A /* sallynewTests.swift */,
 			);
-			path = sally55Tests;
+			path = sallynewTests;
 			sourceTree = "<group>";
 		};
-		EE7CAC842705DB6700CDAD92 /* sally55UITests */ = {
+		EE7B3B2F2709CC44002AE67A /* sallynewUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EE7CAC852705DB6700CDAD92 /* sally55UITests.swift */,
-				EE7CAC872705DB6700CDAD92 /* sally55UITestsLaunchTests.swift */,
+				EE7B3B302709CC44002AE67A /* sallynewUITests.swift */,
+				EE7B3B322709CC44002AE67A /* sallynewUITestsLaunchTests.swift */,
 			);
-			path = sally55UITests;
+			path = sallynewUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE7CAC602705DB6600CDAD92 /* sally55 */ = {
+		EE7B3B0B2709CC43002AE67A /* sallynew */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE7CAC8B2705DB6700CDAD92 /* Build configuration list for PBXNativeTarget "sally55" */;
+			buildConfigurationList = EE7B3B362709CC44002AE67A /* Build configuration list for PBXNativeTarget "sallynew" */;
 			buildPhases = (
-				EE7CAC5D2705DB6600CDAD92 /* Sources */,
-				EE7CAC5E2705DB6600CDAD92 /* Frameworks */,
-				EE7CAC5F2705DB6600CDAD92 /* Resources */,
+				EE7B3B082709CC43002AE67A /* Sources */,
+				EE7B3B092709CC43002AE67A /* Frameworks */,
+				EE7B3B0A2709CC43002AE67A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = sally55;
-			productName = sally55;
-			productReference = EE7CAC612705DB6600CDAD92 /* sally55.app */;
+			name = sallynew;
+			productName = sallynew;
+			productReference = EE7B3B0C2709CC43002AE67A /* sallynew.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EE7CAC762705DB6700CDAD92 /* sally55Tests */ = {
+		EE7B3B212709CC44002AE67A /* sallynewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE7CAC8E2705DB6700CDAD92 /* Build configuration list for PBXNativeTarget "sally55Tests" */;
+			buildConfigurationList = EE7B3B392709CC44002AE67A /* Build configuration list for PBXNativeTarget "sallynewTests" */;
 			buildPhases = (
-				EE7CAC732705DB6700CDAD92 /* Sources */,
-				EE7CAC742705DB6700CDAD92 /* Frameworks */,
-				EE7CAC752705DB6700CDAD92 /* Resources */,
+				EE7B3B1E2709CC44002AE67A /* Sources */,
+				EE7B3B1F2709CC44002AE67A /* Frameworks */,
+				EE7B3B202709CC44002AE67A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EE7CAC792705DB6700CDAD92 /* PBXTargetDependency */,
+				EE7B3B242709CC44002AE67A /* PBXTargetDependency */,
 			);
-			name = sally55Tests;
-			productName = sally55Tests;
-			productReference = EE7CAC772705DB6700CDAD92 /* sally55Tests.xctest */;
+			name = sallynewTests;
+			productName = sallynewTests;
+			productReference = EE7B3B222709CC44002AE67A /* sallynewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EE7CAC802705DB6700CDAD92 /* sally55UITests */ = {
+		EE7B3B2B2709CC44002AE67A /* sallynewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE7CAC912705DB6700CDAD92 /* Build configuration list for PBXNativeTarget "sally55UITests" */;
+			buildConfigurationList = EE7B3B3C2709CC44002AE67A /* Build configuration list for PBXNativeTarget "sallynewUITests" */;
 			buildPhases = (
-				EE7CAC7D2705DB6700CDAD92 /* Sources */,
-				EE7CAC7E2705DB6700CDAD92 /* Frameworks */,
-				EE7CAC7F2705DB6700CDAD92 /* Resources */,
+				EE7B3B282709CC44002AE67A /* Sources */,
+				EE7B3B292709CC44002AE67A /* Frameworks */,
+				EE7B3B2A2709CC44002AE67A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EE7CAC832705DB6700CDAD92 /* PBXTargetDependency */,
+				EE7B3B2E2709CC44002AE67A /* PBXTargetDependency */,
 			);
-			name = sally55UITests;
-			productName = sally55UITests;
-			productReference = EE7CAC812705DB6700CDAD92 /* sally55UITests.xctest */;
+			name = sallynewUITests;
+			productName = sallynewUITests;
+			productReference = EE7B3B2C2709CC44002AE67A /* sallynewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EE7CAC592705DB6600CDAD92 /* Project object */ = {
+		EE7B3B042709CC43002AE67A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					EE7CAC602705DB6600CDAD92 = {
+					EE7B3B0B2709CC43002AE67A = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					EE7CAC762705DB6700CDAD92 = {
+					EE7B3B212709CC44002AE67A = {
 						CreatedOnToolsVersion = 13.0;
-						TestTargetID = EE7CAC602705DB6600CDAD92;
+						TestTargetID = EE7B3B0B2709CC43002AE67A;
 					};
-					EE7CAC802705DB6700CDAD92 = {
+					EE7B3B2B2709CC44002AE67A = {
 						CreatedOnToolsVersion = 13.0;
-						TestTargetID = EE7CAC602705DB6600CDAD92;
+						TestTargetID = EE7B3B0B2709CC43002AE67A;
 					};
 				};
 			};
-			buildConfigurationList = EE7CAC5C2705DB6600CDAD92 /* Build configuration list for PBXProject "sally55" */;
+			buildConfigurationList = EE7B3B072709CC43002AE67A /* Build configuration list for PBXProject "sallynew" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = EE7CAC582705DB6600CDAD92;
-			productRefGroup = EE7CAC622705DB6600CDAD92 /* Products */;
+			mainGroup = EE7B3B032709CC43002AE67A;
+			productRefGroup = EE7B3B0D2709CC43002AE67A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE7CAC602705DB6600CDAD92 /* sally55 */,
-				EE7CAC762705DB6700CDAD92 /* sally55Tests */,
-				EE7CAC802705DB6700CDAD92 /* sally55UITests */,
+				EE7B3B0B2709CC43002AE67A /* sallynew */,
+				EE7B3B212709CC44002AE67A /* sallynewTests */,
+				EE7B3B2B2709CC44002AE67A /* sallynewUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EE7CAC5F2705DB6600CDAD92 /* Resources */ = {
+		EE7B3B0A2709CC43002AE67A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7CAC712705DB6700CDAD92 /* LaunchScreen.storyboard in Resources */,
-				EE7CAC6E2705DB6700CDAD92 /* Assets.xcassets in Resources */,
-				EE7CAC6C2705DB6600CDAD92 /* Main.storyboard in Resources */,
+				EE7B3B1C2709CC44002AE67A /* LaunchScreen.storyboard in Resources */,
+				EE7B3B192709CC44002AE67A /* Assets.xcassets in Resources */,
+				EE7B3B172709CC43002AE67A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE7CAC752705DB6700CDAD92 /* Resources */ = {
+		EE7B3B202709CC44002AE67A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE7CAC7F2705DB6700CDAD92 /* Resources */ = {
+		EE7B3B2A2709CC44002AE67A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,63 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EE7CAC5D2705DB6600CDAD92 /* Sources */ = {
+		EE7B3B082709CC43002AE67A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7CAC942705F87900CDAD92 /* AppDelegate.swift in Sources */,
-				EE7CAC692705DB6600CDAD92 /* ViewController.swift in Sources */,
-				EE7CAC672705DB6600CDAD92 /* SceneDelegate.swift in Sources */,
+				EE7B3B142709CC43002AE67A /* ViewController.swift in Sources */,
+				EE7B3B102709CC43002AE67A /* AppDelegate.swift in Sources */,
+				EE7B3B122709CC43002AE67A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE7CAC732705DB6700CDAD92 /* Sources */ = {
+		EE7B3B1E2709CC44002AE67A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7CAC952705F87B00CDAD92 /* AppDelegate.swift in Sources */,
-				EE7CAC7C2705DB6700CDAD92 /* sally55Tests.swift in Sources */,
+				EE7B3B272709CC44002AE67A /* sallynewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE7CAC7D2705DB6700CDAD92 /* Sources */ = {
+		EE7B3B282709CC44002AE67A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7CAC962705F87C00CDAD92 /* AppDelegate.swift in Sources */,
-				EE7CAC882705DB6700CDAD92 /* sally55UITestsLaunchTests.swift in Sources */,
-				EE7CAC862705DB6700CDAD92 /* sally55UITests.swift in Sources */,
+				EE7B3B332709CC44002AE67A /* sallynewUITestsLaunchTests.swift in Sources */,
+				EE7B3B312709CC44002AE67A /* sallynewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EE7CAC792705DB6700CDAD92 /* PBXTargetDependency */ = {
+		EE7B3B242709CC44002AE67A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EE7CAC602705DB6600CDAD92 /* sally55 */;
-			targetProxy = EE7CAC782705DB6700CDAD92 /* PBXContainerItemProxy */;
+			target = EE7B3B0B2709CC43002AE67A /* sallynew */;
+			targetProxy = EE7B3B232709CC44002AE67A /* PBXContainerItemProxy */;
 		};
-		EE7CAC832705DB6700CDAD92 /* PBXTargetDependency */ = {
+		EE7B3B2E2709CC44002AE67A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EE7CAC602705DB6600CDAD92 /* sally55 */;
-			targetProxy = EE7CAC822705DB6700CDAD92 /* PBXContainerItemProxy */;
+			target = EE7B3B0B2709CC43002AE67A /* sallynew */;
+			targetProxy = EE7B3B2D2709CC44002AE67A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EE7CAC6A2705DB6600CDAD92 /* Main.storyboard */ = {
+		EE7B3B152709CC43002AE67A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EE7CAC6B2705DB6600CDAD92 /* Base */,
+				EE7B3B162709CC43002AE67A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EE7CAC6F2705DB6700CDAD92 /* LaunchScreen.storyboard */ = {
+		EE7B3B1A2709CC44002AE67A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EE7CAC702705DB6700CDAD92 /* Base */,
+				EE7B3B1B2709CC44002AE67A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EE7CAC892705DB6700CDAD92 /* Debug */ = {
+		EE7B3B342709CC44002AE67A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -381,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		EE7CAC8A2705DB6700CDAD92 /* Release */ = {
+		EE7B3B352709CC44002AE67A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -436,7 +432,7 @@
 			};
 			name = Release;
 		};
-		EE7CAC8C2705DB6700CDAD92 /* Debug */ = {
+		EE7B3B372709CC44002AE67A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -444,7 +440,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = sally55/Info.plist;
+				INFOPLIST_FILE = sallynew/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -455,7 +451,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sally.com.sally55;
+				PRODUCT_BUNDLE_IDENTIFIER = sally.com.sallynew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -463,7 +459,7 @@
 			};
 			name = Debug;
 		};
-		EE7CAC8D2705DB6700CDAD92 /* Release */ = {
+		EE7B3B382709CC44002AE67A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -471,7 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = sally55/Info.plist;
+				INFOPLIST_FILE = sallynew/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -482,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sally.com.sally55;
+				PRODUCT_BUNDLE_IDENTIFIER = sally.com.sallynew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -490,7 +486,7 @@
 			};
 			name = Release;
 		};
-		EE7CAC8F2705DB6700CDAD92 /* Debug */ = {
+		EE7B3B3A2709CC44002AE67A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -505,16 +501,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sally.com.sally55Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = sally.com.sallynewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sally55.app/sally55";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sallynew.app/sallynew";
 			};
 			name = Debug;
 		};
-		EE7CAC902705DB6700CDAD92 /* Release */ = {
+		EE7B3B3B2709CC44002AE67A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -529,16 +525,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sally.com.sally55Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = sally.com.sallynewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sally55.app/sally55";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sallynew.app/sallynew";
 			};
 			name = Release;
 		};
-		EE7CAC922705DB6700CDAD92 /* Debug */ = {
+		EE7B3B3D2709CC44002AE67A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -551,16 +547,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sally.com.sally55UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = sally.com.sallynewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = sally55;
+				TEST_TARGET_NAME = sallynew;
 			};
 			name = Debug;
 		};
-		EE7CAC932705DB6700CDAD92 /* Release */ = {
+		EE7B3B3E2709CC44002AE67A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -573,55 +569,55 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sally.com.sally55UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = sally.com.sallynewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = sally55;
+				TEST_TARGET_NAME = sallynew;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE7CAC5C2705DB6600CDAD92 /* Build configuration list for PBXProject "sally55" */ = {
+		EE7B3B072709CC43002AE67A /* Build configuration list for PBXProject "sallynew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE7CAC892705DB6700CDAD92 /* Debug */,
-				EE7CAC8A2705DB6700CDAD92 /* Release */,
+				EE7B3B342709CC44002AE67A /* Debug */,
+				EE7B3B352709CC44002AE67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE7CAC8B2705DB6700CDAD92 /* Build configuration list for PBXNativeTarget "sally55" */ = {
+		EE7B3B362709CC44002AE67A /* Build configuration list for PBXNativeTarget "sallynew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE7CAC8C2705DB6700CDAD92 /* Debug */,
-				EE7CAC8D2705DB6700CDAD92 /* Release */,
+				EE7B3B372709CC44002AE67A /* Debug */,
+				EE7B3B382709CC44002AE67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE7CAC8E2705DB6700CDAD92 /* Build configuration list for PBXNativeTarget "sally55Tests" */ = {
+		EE7B3B392709CC44002AE67A /* Build configuration list for PBXNativeTarget "sallynewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE7CAC8F2705DB6700CDAD92 /* Debug */,
-				EE7CAC902705DB6700CDAD92 /* Release */,
+				EE7B3B3A2709CC44002AE67A /* Debug */,
+				EE7B3B3B2709CC44002AE67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE7CAC912705DB6700CDAD92 /* Build configuration list for PBXNativeTarget "sally55UITests" */ = {
+		EE7B3B3C2709CC44002AE67A /* Build configuration list for PBXNativeTarget "sallynewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE7CAC922705DB6700CDAD92 /* Debug */,
-				EE7CAC932705DB6700CDAD92 /* Release */,
+				EE7B3B3D2709CC44002AE67A /* Debug */,
+				EE7B3B3E2709CC44002AE67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EE7CAC592705DB6600CDAD92 /* Project object */;
+	rootObject = EE7B3B042709CC43002AE67A /* Project object */;
 }
