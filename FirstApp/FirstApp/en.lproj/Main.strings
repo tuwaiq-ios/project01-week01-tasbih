@@ -1,0 +1,27 @@
+
+/* Class = "UIButton"; configuration.title = "عد"; ObjectID = "0fx-Cs-L39"; */
+"0fx-Cs-L39.configuration.title" = "عد";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0fx-Cs-L39"; */
+"0fx-Cs-L39.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "2FT-Rl-PoR"; */
+"2FT-Rl-PoR.text" = "0";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2gT-ox-NbC"; */
+"2gT-ox-NbC.text" = "Label";
+
+/* Class = "UILabel"; text = "﴿ وَسَبِّحْ بِحَمْدِ رَبِّكَ ﴾"; ObjectID = "3rQ-ak-eNW"; */
+"3rQ-ak-eNW.text" = "﴿ وَسَبِّحْ بِحَمْدِ رَبِّكَ ﴾";
+
+/* Class = "UILabel"; text = "مره"; ObjectID = "cUW-Yg-Ago"; */
+"cUW-Yg-Ago.text" = "مره";
+
+/* Class = "UILabel"; text = "استغفرت"; ObjectID = "l3s-Ol-wgz"; */
+"l3s-Ol-wgz.text" = "استغفرت";
+
+/* Class = "UIButton"; configuration.title = "مسح"; ObjectID = "mhL-Hh-XJR"; */
+"mhL-Hh-XJR.configuration.title" = "مسح";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "mhL-Hh-XJR"; */
+"mhL-Hh-XJR.normalTitle" = "Button";
